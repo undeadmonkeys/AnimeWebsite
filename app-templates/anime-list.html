@@ -1,0 +1,12 @@
+<div class="center-area-left">
+    <h2 id="section-{{sections.section}}" ng-repeat-start="sections in AnimeListCtrl.animes | limitTo: 12">{{sections.section}}</h1>
+    <ul id="list-{{sections.section}}" ng-repeat-end>
+        <li ng-repeat="titles in sections.list | filter:search" >{{titles.title}}</li>
+    </ul>
+</div>
+<div class="center-area-right">
+    <h2 id="section-{{sections.section}}" ng-repeat-start="sections in AnimeListCtrl.animes | limitTo: -14">{{sections.section}}</h1>
+    <ul id="list-{{sections.section}}" ng-repeat-end>
+        <li ng-repeat="titles in sections.list | filter:search" >{{titles.title}}</li>
+    </ul>
+</div>
