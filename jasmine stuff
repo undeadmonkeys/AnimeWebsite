@@ -1,0 +1,59 @@
+protractor.wrapDriver
+protractor.setInstance
+protractor.getInstance
+ 
+protractor.By
+protractor.By.binding
+protractor.By.select
+protractor.By.selectedOption
+protractor.By.input
+protractor.By.repeater
+protractor.By.className
+protractor.By.class name
+protractor.By.css
+protractor.By.id
+protractor.By.js
+protractor.By.linkText
+protractor.By.link text
+protractor.By.name
+protractor.By.partialLinkText
+protractor.By.partial link text
+protractor.By.tagName
+protractor.By.tag name
+protractor.By.xpath
+ 
+var browser = protractor.getInstance();
+ 
+browser.controlFlow
+browser.schedule
+browser.getSession
+browser.getCapability
+browser.quit
+browser.actions
+browser.executeScript
+browser.executeAsyncScript
+browser.call
+browser.wait
+browser.sleep
+browser.getWindowHandle
+browser.getAllWindowHandles
+browser.getPageSource
+browser.close
+browser.getCurrentUrl
+browser.getTitle
+browser.findDomElement_
+browser.isElementPresent
+browser.takeScreenshot
+browser.manage
+browser.navigate
+browser.switchTo
+browser.driver
+browser.baseUrl
+browser.moduleNames_
+browser.moduleScripts_
+browser.waitForAngular
+browser.findElement
+browser.findElements
+browser.addMockModule
+browser.clearMockModules
+browser.get
